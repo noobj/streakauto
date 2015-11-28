@@ -18,6 +18,7 @@ class Auto:
         cmd = "git commit -m '{0}'".format(datestring)
         subprocess.Popen(shlex.split(cmd))
         cmd = "git push origin master"
+        subprocess.Popen(shlex.split(cmd))
 
 if __name__ == "__main__":
     fucker = Auto()
