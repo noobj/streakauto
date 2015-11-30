@@ -5,7 +5,7 @@ import subprocess
 from datetime import date
 import shlex
 import time
-datestring = str(date.today())
+datestring = str(datetime.datetime.now())
 
 class Auto:
     # make some difference everyday
