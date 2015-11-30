@@ -25,4 +25,6 @@ class Auto:
 
 if __name__ == "__main__":
     fucker = Auto()
-    fucker.main()
+    while True:
+        fucker.main()
+	time.sleep(10)
