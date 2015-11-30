@@ -27,4 +27,4 @@ if __name__ == "__main__":
     fucker = Auto()
     while True:
         fucker.main()
-	time.sleep(10)
+	time.sleep(24*60*60)
