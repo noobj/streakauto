@@ -2,7 +2,7 @@
 __author__ = 'jjj'
 # -*- coding:utf8 -*-
 import subprocess
-from datetime import date
+import datetime
 import shlex
 import time
 datestring = str(datetime.datetime.now())
